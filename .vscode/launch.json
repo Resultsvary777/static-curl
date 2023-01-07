@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {kamenokosoft.cdp-gdb-bridge},
+        {
+            "type": "wasm-chrome",
+            "request": "launch",
+            "name": "WebAssembly Debug",
+            "url": "http://localhost:8080/"
+        },
+        
+        {kamenokosoft.cdp-gdb-bridge
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },kamenokosoft.cdp-gdb-bridge
+        { 
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
